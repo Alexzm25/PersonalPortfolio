@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li>
+                <a href="#perfil">Perfil</a>
+            </li>
+            <li>
+                <a href="#habilidades">Habilidades</a>
+            </li>
+            <li>
+                <a href="#proyectos">Proyectos</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <section class="profile">
+            <section class="presentation">
+                <h1 class="title" id="perfil">Alex Zúñiga Monge<br>
+                    <span class="subtitle">Ingeniero de Software</span>
+                </h1>
+                <img src="src/images/oshawottDungeon.jpg" width="120" height="120"/>
+            </section>
+            <section class="">
+                <h1 class="subtitle">
+                    Sobre mi
+                </h1>
+                <p class="content">
+                    Soy un ingeniero de software con experiencia en el desarrollo de aplicaciones web y móviles. 
+                    <br>Me apasiona la tecnología y siempre estoy buscando aprender nuevas habilidades para mejorar mis proyectos.
+                </p>
+            </section>
+        </section>
+        <h1 class="title" id="habilidades">
+                Habilidades
+        </h1>    
+        <section class="skills-container">
+            <ul class="hard-skills-list container">
+                <li>Desarrollo web (HTML, CSS, JavaScript)</li>
+                <li>Desarrollo móvil (React Native, Flutter)</li>
+                <li>Programación en C++ y Java</li>
+                <li>Gestión de bases de datos (PostgreSQL, MongoDB)</li>
+                <li>Control de versiones (Git)</li>
+            </ul>
+            <ul class="soft-skills-list container">
+                <li>Trabajo en equipo</li>
+                <li>Comunicación efectiva</li>
+                <li>Resolución de problemas</li>
+                <li>Adaptabilidad</li>
+                <li>Gestión del tiempo</li>
+            </ul> 
+            <ul class="languages-list container">
+                <li>Español (nativo)</li>
+                <li>Inglés (avanzado)</li>
+            </ul>
+        </section>
+        <section class="project-container" id="proyectos">
+            <h1>Proyectos</h1>
+            <div class="project container">
+                <h2>Sistema de Gestión de Inventario para Pequeñas Empresas</h2>
+                <p>Es un sistema de gestión de inventario para pequeñas empresas. 
+                    <br>El sistema permite a los usuarios realizar un seguimiento de sus productos, gestionar pedidos y generar informes de ventas.
+                    <br>Desarrollado con Java y JavaFX.
+                </p>
+            </div>
+            <div class="project container">
+                <h2>RotoMap</h2>
+                <p>Sistema administrador de rutas y estaciones para encontrar las rutas más cortas y con reportes incluidos
+                    <br>Desarrollado con C++ y Qt.
+                </p>
+                <a href="https://github.com/Alexzm25/RotoMap" target="_blank">
+                    <img src="src/images/githubIcon.png" width="30" height="30"/>
+                </a>
+            </div>
+            <div class="project container">
+                <h2>Sistema de Gestión de Tareas Colaborativas</h2>
+                <p>Aplicación web para la gestión de tareas en equipos de trabajo.
+                    <br>Permite crear proyectos, asignar tareas a usuarios y visualizar el progreso mediante tableros.
+                    <br>Desarrollado con React y Node.js.
+                </p>
+            </div>
+        </section>
+        <section class="contact-container" id="contacto">
+            <h1 class="title">
+                Contactos
+            </h1>
+            <h4 class="subtittle">
+                Estoy abierto a oportunidades y a cualquier oferta.
+                <br>Soy alguien que busca crecer profesionalmente y contribuir a proyectos innovadores.
+            </h4>
+            <ul class="contact-list">
+                <li>
+                    Email:
+                    <div class="contact-value">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                        </svg>
+
+                        <a href="mailto:alex.zuniga.monge@est.una.ac.cr">Mi correo profesional</a>
+                    </div>
+                </li>
+                
+                <li>
+                    GitHub:
+                    <a href="https://github.com/Alexzm25" target="_blank">Mi perfil de GitHub</a>
+                </li>
+                <li>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/alex-zuniga-monge/" target="_blank">Mi perfil de LinkedIn</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,143 @@
+:root{
+    background-color: #0C2B4E;
+    color: #F4F4F4;
+}
+
+body{
+    margin:0;
+}
+
+nav{
+    display: flex;
+    padding-left: 1000px;
+    background-color: #1D546C;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #F4F4F4;
+
+}
+
+.main-content{
+    padding: 20px;
+
+}
+
+.profile{
+    padding: 30px;
+    border: 2px solid transparent;
+}
+
+.profile:hover{
+    border-radius: 20px;
+    border:lightskyblue 2px solid;
+    background:linear-gradient(180deg, #1A3D64, #1D546C);
+}
+
+.subtitle{
+    font-size: 20px;
+    color: #f4f4f47e;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin: 60px;
+    
+}
+
+.container{
+    border-radius: 20px;
+    background-color: #1A3D64;
+    padding: 40px;
+    margin: 20px;
+}
+
+.skill-title{
+    padding-left: 50px;
+}
+
+.skills-container{
+    display: flex;    
+    justify-content: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+.skills-container > ul{
+    width: 300px;
+}
+
+.project{
+    border: 2px solid transparent;
+}
+
+.project:hover{
+    background:linear-gradient(180deg, #1A3D64, #1D546C);
+    border:lightskyblue 2px solid;
+}
+
+.contact-container{
+    display: flex;
+    border:lightskyblue 2px solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 300px;
+    
+    margin:auto;
+}
+
+.contact-list{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-value {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+.contact-list li{
+    display: flex;   
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-list li a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.contact-list li:hover{
+    background:linear-gradient(180deg, #1A3D64, #1D546C);
+}
+
+.contact-list svg {
+    width: 20px;
+    height: 20px;
+}
+
