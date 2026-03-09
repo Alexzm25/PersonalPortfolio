@@ -47,17 +47,21 @@ nav{
 
 .main-content{
     padding: 20px;
+}
 
+.main-content >{
+    margin: 40px;
 }
 
 .profile{
     padding: 30px;
-    border: 6px inset #1D546C;
+    border-radius: 20px;
+    border:lightskyblue 2px inset;
 }
 
 .profile:hover{
     border-radius: 20px;
-    border:lightskyblue 6px solid;
+    border:lightskyblue 2px inset;
     background:linear-gradient(180deg, #1A3D64, #1D546C);
 }
 
