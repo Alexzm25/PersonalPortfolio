@@ -1,6 +1,8 @@
 :root{
     background-color: #0C2B4E;
+    font-family: sans-serif;
     color: #F4F4F4;
+    
 }
 
 body{
@@ -10,10 +12,15 @@ body{
 nav{
     display: flex;
     padding-left: 1000px;
-    background-color: #1D546C;
+    background-color: rgba(255, 255, 255, 0.05);
+    
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+
+.glass{
+    backdrop-filter: blur(30px);
 }
 
 .nav-list{
@@ -33,6 +40,11 @@ nav{
 
 }
 
+.profile-photo{
+    border-radius: 50%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
 .main-content{
     padding: 20px;
 
@@ -40,18 +52,21 @@ nav{
 
 .profile{
     padding: 30px;
-    border: 2px solid transparent;
+    border: 6px inset #1D546C;
 }
 
 .profile:hover{
     border-radius: 20px;
-    border:lightskyblue 2px solid;
+    border:lightskyblue 6px solid;
     background:linear-gradient(180deg, #1A3D64, #1D546C);
 }
 
 .subtitle{
     font-size: 20px;
-    color: #f4f4f47e;
+    background: linear-gradient(90deg, #F4F4F4, #83417f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .presentation{
@@ -67,6 +82,7 @@ nav{
     background-color: #1A3D64;
     padding: 40px;
     margin: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .skill-title{
@@ -95,13 +111,17 @@ nav{
 
 .contact-container{
     display: flex;
-    border:lightskyblue 2px solid;
+    border:lightskyblue 2px inset;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px;
     width: 300px;
     
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+
     margin:auto;
 }
 
@@ -112,9 +132,24 @@ nav{
 
 .contact-value {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    color:#F4F4F4;
     font-weight: normal;
+}
+
+.contact-value a{
+    color:#F4F4F4;
+    text-decoration: none;
+}
+
+.contact-title{
+    color:darkgrey;
+    margin: 1px;
+}
+
+.contact-link{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .contact-list li{

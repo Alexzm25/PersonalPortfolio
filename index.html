@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
+    <nav class="glass">
         <ul class="nav-list">
             <li>
                 <a href="#perfil">Perfil</a>
@@ -29,7 +29,7 @@
                 <h1 class="title" id="perfil">Alex Zúñiga Monge<br>
                     <span class="subtitle">Ingeniero de Software</span>
                 </h1>
-                <img src="src/images/oshawottDungeon.jpg" width="120" height="120"/>
+                <img class="profile-photo" src="src/images/oshawottDungeon.jpg" width="120" height="120"/>
             </section>
             <section class="">
                 <h1 class="subtitle">
@@ -72,6 +72,9 @@
                     <br>El sistema permite a los usuarios realizar un seguimiento de sus productos, gestionar pedidos y generar informes de ventas.
                     <br>Desarrollado con Java y JavaFX.
                 </p>
+                <a href="https://github.com/Alexzm25" target="_blank">
+                    <img src="src/images/githubIcon.png" width="30" height="30"/>
+                </a>
             </div>
             <div class="project container">
                 <h2>RotoMap</h2>
@@ -88,6 +91,9 @@
                     <br>Permite crear proyectos, asignar tareas a usuarios y visualizar el progreso mediante tableros.
                     <br>Desarrollado con React y Node.js.
                 </p>
+                <a href="https://github.com/Alexzm25" target="_blank">
+                    <img src="src/images/githubIcon.png" width="30" height="30"/>
+                </a>
             </div>
         </section>
         <section class="contact-container" id="contacto">
@@ -100,23 +106,34 @@
             </h4>
             <ul class="contact-list">
                 <li>
-                    Email:
-                    <div class="contact-value">
+                    <a href="mailto:alex.zuniga.monge@est.una.ac.cr" class="contact-value" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                         </svg>
-
-                        <a href="mailto:alex.zuniga.monge@est.una.ac.cr">Mi correo profesional</a>
-                    </div>
+                        <div class="contact-link">
+                            <span class="contact-title">Correo electrónico</span>
+                            <span class="contact-description">alex.zuniga.monge@est.una.ac.cr</span>
+                        </div>
+                    </a>
                 </li>
                 
                 <li>
-                    GitHub:
-                    <a href="https://github.com/Alexzm25" target="_blank">Mi perfil de GitHub</a>
+                    <a href="https://github.com/Alexzm25" class="contact-value" target="_blank">
+                        <img src="src/images/githubIcon.png" width="20" height="20"/>
+                        <div class="contact-link">
+                            <span class="contact-title">GitHub</span>
+                            <span class="contact-description">github.com/Alexzm25</span>
+                        </div>
+
+                    </a>
                 </li>
                 <li>
-                    LinkedIn:
-                    <a href="https://www.linkedin.com/in/alex-zuniga-monge/" target="_blank">Mi perfil de LinkedIn</a>
+                    <a href="https://github.com/Alexzm25" class="contact-value" target="_blank">
+                        <img src="src/images/linkedinIcon.webp" width="20" height="20"/>
+                        <div class="contact-link">
+                            <span class="contact-title">Linkedin</span>
+                            <span class="contact-description">Alex Zúñiga Monge</span>
+                        </div>
                 </li>
             </ul>
         </section>
