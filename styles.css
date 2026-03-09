@@ -40,6 +40,10 @@ nav{
 
 }
 
+header{
+    padding: 20px;
+}
+
 .profile-photo{
     border-radius: 50%;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
@@ -49,9 +53,7 @@ nav{
     padding: 20px;
 }
 
-.main-content >{
-    margin: 40px;
-}
+
 
 .profile{
     padding: 30px;
@@ -60,8 +62,9 @@ nav{
 }
 
 .profile:hover{
-    border-radius: 20px;
-    border:lightskyblue 2px inset;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border:lightskyblue 10px inset;
+    transition: 0.36s;
     background:linear-gradient(180deg, #1A3D64, #1D546C);
 }
 
@@ -111,6 +114,7 @@ nav{
 .project:hover{
     background:linear-gradient(180deg, #1A3D64, #1D546C);
     border:lightskyblue 2px solid;
+    transition: 0.36s;
 }
 
 .contact-container{
@@ -123,10 +127,22 @@ nav{
     padding: 40px;
     width: 300px;
     
+    
+    
+    
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
+    
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
-    margin:auto;
+.contact-container:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border:lightskyblue 10px inset;
+    transition: 0.36s;
+    background:linear-gradient(180deg, #1A3D64, #1D546C);
 }
 
 .contact-list{
